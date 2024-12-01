@@ -1,0 +1,41 @@
+===== k-NN Classification Results (loocv) =====
+k: 3, Distance Metric: euclidean
+
+--------------------------------------------------
+| Instance |   Actual   |   Predicted  |  Correct |
+--------------------------------------------------
+|   1      |   No        |   No        |   True   |
+|   2      |   No        |   No        |   True   |
+|   3      |   Yes       |   No        |   False   |
+|   4      |   Yes       |   No        |   False   |
+|   5      |   Yes       |   Yes       |   True   |
+|   6      |   No        |   Yes       |   False   |
+|   7      |   Yes       |   Yes       |   True   |
+|   8      |   No        |   No        |   True   |
+|   9      |   Yes       |   No        |   False   |
+|   10     |   Yes       |   Yes       |   True   |
+|   11     |   Yes       |   No        |   False   |
+|   12     |   Yes       |   No        |   False   |
+|   13     |   Yes       |   Yes       |   True   |
+|   14     |   No        |   Yes       |   False   |
+--------------------------------------------------
+Overall Accuracy: 0.50
+
+--------------------------------------------------
+Confusion Matrix:
+--------------------------------------------------
+                   Predicted
+            |   Yes    |   No     |
+------------|----------|----------|
+Actual Yes  |   4        |   5        |
+Actual No   |   2        |   3        |
+--------------------------------------------------
+
+True Positives (TP):  4
+True Negatives (TN):  3
+False Positives (FP): 2
+False Negatives (FN): 5
+Precision: 0.67
+Recall: 0.44
+F1 Score: 0.53
+--------------------------------------------------

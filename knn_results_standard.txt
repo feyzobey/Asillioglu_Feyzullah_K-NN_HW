@@ -1,0 +1,41 @@
+===== k-NN Classification Results (standard) =====
+k: 3, Distance Metric: euclidean
+
+--------------------------------------------------
+| Instance |   Actual   |   Predicted  |  Correct |
+--------------------------------------------------
+|   1      |   No        |   No        |   True   |
+|   2      |   No        |   No        |   True   |
+|   3      |   Yes       |   Yes       |   True   |
+|   4      |   Yes       |   Yes       |   True   |
+|   5      |   Yes       |   Yes       |   True   |
+|   6      |   No        |   Yes       |   False   |
+|   7      |   Yes       |   Yes       |   True   |
+|   8      |   No        |   No        |   True   |
+|   9      |   Yes       |   Yes       |   True   |
+|   10     |   Yes       |   Yes       |   True   |
+|   11     |   Yes       |   No        |   False   |
+|   12     |   Yes       |   No        |   False   |
+|   13     |   Yes       |   Yes       |   True   |
+|   14     |   No        |   Yes       |   False   |
+--------------------------------------------------
+Overall Accuracy: 0.71
+
+--------------------------------------------------
+Confusion Matrix:
+--------------------------------------------------
+                   Predicted
+            |   Yes    |   No     |
+------------|----------|----------|
+Actual Yes  |   7        |   2        |
+Actual No   |   2        |   3        |
+--------------------------------------------------
+
+True Positives (TP):  7
+True Negatives (TN):  3
+False Positives (FP): 2
+False Negatives (FN): 2
+Precision: 0.78
+Recall: 0.78
+F1 Score: 0.78
+--------------------------------------------------
